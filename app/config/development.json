@@ -1,0 +1,30 @@
+{
+    "host": "http://localhost:8888",
+    "dbURI": "mongodb://chatappadmin:chatappadmin@ds029725.mlab.com:29725/ragadb",
+    "sessionSecret": "Iamlovingnodejs",
+    "fb": {
+        "clientID": "283979815386053",
+        "clientSecret": "ea5b84bb67679e94f3b0749849ac7e9e",
+        "callbackURL": "//localhost:8888/auth/facebook/callback",
+        "profileFields": [
+            "id",
+            "displayName",
+            "photos"
+        ]
+    },
+    "twitter": {
+        "consumerKey": "HnOJfuqYxdNJe2BRtHUMrg1Oe",
+        "consumerSecret": "iG5oa7QsBbwHKV5YAf0tXqFzknutt5Uphy3hvN6REtRPgvl57h",
+        "callbackURL": "//localhost:8888/auth/twitter/callback",
+        "profileFields": [
+            "id",
+            "displayName",
+            "photos"
+        ]
+    },
+    "redis": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "password": ""
+    }
+}
